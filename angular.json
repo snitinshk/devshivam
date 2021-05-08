@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "cc2271e7-86bf-4c3a-8a8b-d5909966bf85"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -28,9 +31,29 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/vendors/linericon/style.css",
+              "src/assets/vendors/owl-carousel/owl.carousel.min.css",
+              "src/assets/vendors/nice-select/css/nice-select.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.2.1.min.js",
+              "src/assets/js/theme.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/popper.js",
+              "src/assets/js/stellar.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/jquery.ajaxchimp.min.js",
+              "src/assets/js/mail-script.js",
+              "src/assets/vendors/nice-select/js/jquery.nice-select.min.js",
+              "src/assets/vendors/isotope/imagesloaded.pkgd.min.js",
+              "src/assets/vendors/isotope/isotope-min.js",
+              "src/assets/vendors/owl-carousel/owl.carousel.min.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import * as $ from 'jquery';
+// declare const initialize: any;
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myweb';
+  ngOnInit (){
+    console.log('initialize')
+    // initialize();
+  }
 }
