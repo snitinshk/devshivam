@@ -70,28 +70,28 @@ $(document).ready(function(){
 	/*----------------------------------------------------*/
 	/*  Testimonials Slider
     /*----------------------------------------------------*/
-	function testimonials_slider() {
-		if ($('.testi_slider').length) {
-			$('.testi_slider').owlCarousel({
-				loop: true,
-				margin: 30,
-				items: 2,
-				autoplay: true,
-				smartSpeed: 2500,
-				dots: true,
-				responsiveClass: true,
-				responsive: {
-					0: {
-						items: 1
-					},
-					991: {
-						items: 2
-					}
-				}
-			});
-		}
-	}
-	testimonials_slider();
+	// function testimonials_slider() {
+	// 	if ($('.testi_slider').length) {
+	// 		$('.testi_slider').owlCarousel({
+	// 			loop: true,
+	// 			margin: 30,
+	// 			items: 2,
+	// 			autoplay: true,
+	// 			smartSpeed: 2500,
+	// 			dots: true,
+	// 			responsiveClass: true,
+	// 			responsive: {
+	// 				0: {
+	// 					items: 1
+	// 				},
+	// 				991: {
+	// 					items: 2
+	// 				}
+	// 			}
+	// 		});
+	// 	}
+	// }
+	// testimonials_slider();
 
 	/*----------------------------------------------------*/
 	/*  Google map js
